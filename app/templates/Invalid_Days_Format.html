@@ -48,18 +48,8 @@
         <div class="sidebar pe-4 pb-3">
             <nav class="navbar bg-secondary navbar-dark">
                 <a href="../../../" class="navbar-brand mx-4 mb-3">
-                    <h3 class="text-primary"><i class="fa fa-user-edit me-2"></i>Stocks</h3>
+                    <h3 class="text-primary">Stocks</h3>
                 </a>
-                <div class="d-flex align-items-center ms-4 mb-4">
-                    <div class="position-relative">
-                        <img class="rounded-circle" src="{% static 'image/user.png' %}" alt="" style="width: 40px; height: 40px;">
-                        <div class="bg-success rounded-circle border border-2 border-white position-absolute end-0 bottom-0 p-1"></div>
-                    </div>
-                    <div class="ms-3">
-                        <h6 class="mb-0">Welcome</h6>
-                        <span>Guest</span>
-                    </div>
-                </div>
                 <div class="navbar-nav w-100">
                     <a href="../../../" class="nav-item nav-link"><i class="fa fa-home me-2"></i>Home</a>
                     <a href="../../../search" class="nav-item nav-link"><i class="fa fa-search me-2"></i>Predict</a>
@@ -72,29 +62,6 @@
 
         <!-- Content Start -->
         <div class="content">
-            <!-- Navbar Start -->
-            <nav class="navbar navbar-expand bg-secondary navbar-dark sticky-top px-4 py-0">
-                <a href="../" class="navbar-brand d-flex d-lg-none me-4">
-                    <h2 class="text-primary mb-0"><i class="fa fa-user-edit"></i></h2>
-                </a>
-                <a href="#" class="sidebar-toggler flex-shrink-0">
-                    <i class="fa fa-bars"></i>
-                </a>
-
-                <div class="navbar-nav align-items-center ms-auto">
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
-                            <img class="rounded-circle me-lg-2" src="{% static 'image/user.png' %}" alt="" style="width: 40px; height: 40px;">
-                            <span class="d-none d-lg-inline-flex">Guest</span>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
-                            <a href="/search" class="dropdown-item">Predict</a>
-                            <a href="/ticker" class="dropdown-item">Ticker Info</a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-            <!-- Navbar End -->
 
 
             <!-- 404 Start -->
@@ -105,8 +72,7 @@
                         <h1 class="display-1 fw-bold">404</h1>
                         <h1 class="mb-4">Page Not Found</h1>
                         <p class="mb-4">
-                            We’re sorry, the number of days you have entered doesn't match a valid data-type, please enter a valid number of days.
-                            Maybe go to our home page or try to use a search?
+                            We’re sorry, the number of days you have entered doesn't match a valid data-type or isn't within the allowed range (1 - 365) please enter a valid number of days.
                         </p>
                         <a class="btn btn-primary rounded-pill py-3 px-5" href="../../../">Go Back To Home</a>
                     </div>
@@ -115,26 +81,9 @@
             <!-- 404 End -->
 
 
-            <!-- Footer Start -->
-            <div class="container-fluid pt-4 px-4">
-                <div class="bg-secondary rounded-top p-4">
-                    <div class="row">
-                        <div class="col-12 col-sm-6 text-center text-sm-start">
-                            &copy; <a href="#">Kumar Laxmikant</a>, All Right Reserved. 
-                        </div>
-                        <div class="col-12 col-sm-6 text-center text-sm-end">
-                            Designed By <a href="https://portfolio-website-azure-eta.vercel.app/">Kumar Laxmikant</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Footer End -->
         </div>
         <!-- Content End -->
 
-
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
     </div>
 
     <!-- JavaScript Libraries -->
